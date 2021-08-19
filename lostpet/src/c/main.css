@@ -1,0 +1,41 @@
+body {
+  font-family: Serif;
+}
+.marginSides {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.imgStyle2 {
+  float: left;
+  min-width: 200px;
+  border-style: inset;
+  border-width: 3px;
+  border-color: rgb(0, 0, 0);
+}
+
+.mapStyle {
+  display: block;
+  margin-top: 50px;
+  height: 100vh;
+  float: bottom;
+}
+.postsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.postsContainer > * {
+  flex: 0 1 25%;
+}
+.postsHead {
+  text-align: center;
+}
+.scalable {
+  height: 40px;
+  text-align: center;
+  padding: auto;
+}
+.Label{
+  font-weight: 100;
+}

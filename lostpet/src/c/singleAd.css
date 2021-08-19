@@ -1,0 +1,47 @@
+.imgStyle {
+    min-height: 80%;
+    min-width: 80%;
+    float: left;
+    border-style: inset;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+  }
+  .petImage{
+    min-width: 100px;
+  }
+  .divStyle {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    width: 70%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .textStyle {
+
+  }
+  .divText {
+
+    display: block;
+  }
+.divPhotoText {
+    min-width: 600px;
+
+    column-gap: 50px;
+    column-count: 2;
+  }
+  @media all and (max-width:750px){
+    .divPhotoText {
+        min-width: 200px;
+
+        column-gap: 50px;
+        column-count: 1;
+      }
+      .imgStyle {
+        min-width: 270px;
+        position: relative;
+        float: left;
+        border-style: inset;
+        border-width: 1px;
+        border-color: rgb(0, 0, 0);
+      }
+  }
