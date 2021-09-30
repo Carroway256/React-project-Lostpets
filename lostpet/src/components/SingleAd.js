@@ -27,7 +27,7 @@ export default function SingleAd(props) {
           let x = doc.data();
 
           setdata(x);
-          useForceUpdate();
+         
         } else {
           console.log("No such document!");
         }

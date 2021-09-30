@@ -1,16 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap");
+.ui_buttons{
+  padding-bottom:10px;
+}
 .maindiv {
-  margin-top: 40vh;
+  padding-top:40vh ;
   width: 85%;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0px;
 }
 .logo {
+  margin-right: 5vw;
+  bottom: 5vh;;
   position: absolute;
   left: 65vw;
   display: block;
+  
 }
 .title-text {
   display: block;
@@ -23,21 +30,37 @@
 body {
   font-family: "Atkinson Hyperlegible", sans-serif;
 }
+h2{
+  width: 60%;
+}
 
 @media (max-width: 1500px) {
+  
   .logo {
     position: relative;
-    float: none;
-    left: 0px;
+    left: auto;
+    right: auto;
+    display: block;
+    margin-left: 10%;
+
     width: 20px;
   }
   .logoimage {
     width: 80vw;
   }
+  h2{
+    width: 100%;
+  }
   .maindiv {
-    margin-top: 5vh;
+    padding-top: 10vh;
+
+    width: 100%;
+    
   }
   .title-text {
+    margin-left: 5px;
     margin-top: 5vh;
+    width: 100%;
+
   }
 }

@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-import NewAd from "./c/NewAd";
-import AdList from "./c/AdList"
-import Header from "./c/Header";
+import NewAd from "./components/NewAd";
+import AdList from "./components/AdList"
+import Header from "./components/Header";
 
-import SingleAd from "./c/SingleAd";
-import WelcomePage from "./c/WelcomePage";
+import SingleAd from "./components/SingleAd";
+import WelcomePage from "./components/WelcomePage";
 import * as firebase from "firebase/app";
 import { firebaseConfig as config } from "./firebase/config";
 import { FirebaseAuthProvider } from "@react-firebase/auth";
