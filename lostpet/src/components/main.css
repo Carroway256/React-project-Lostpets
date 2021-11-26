@@ -39,3 +39,9 @@ body {
 .Label{
   font-weight: 100;
 }
+button{
+  width:200px;
+  height:50px
+  !important
+}
+

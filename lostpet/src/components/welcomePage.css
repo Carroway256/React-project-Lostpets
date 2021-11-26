@@ -1,41 +1,57 @@
-@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap");
-.ui_buttons{
-  padding-bottom:10px;
-}
-.maindiv {
-  padding-top:40vh ;
-  width: 85%;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+html {
   overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0px;
+}
+.ui_buttons {
+  display: flex;
+  gap: 1em;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 3vw;
+  position: absolute;
+  bottom: 0;
+  gap: 10em;
+}
+.title {
+  font-size: 5rem;
+  font-weight: 600;
 }
 .logo {
-  margin-right: 5vw;
-  bottom: 5vh;;
+}
+.background {
+  background-image: linear-gradient(rgb(17, 0, 255), rgb(10, 252, 159));
+  z-index: -1;
+  width: 250vh;
+  height: 100vh;
+  transform: rotate(42deg);
   position: absolute;
-  left: 65vw;
-  display: block;
-  
+  right: 56em;
+  top: 5em;
+  box-sizing: content-box;
 }
 .title-text {
-  display: block;
-  margin-top: 25vh;
-  font-family: "Atkinson Hyperlegible", sans-serif;
-  font-size: 4rem;
-  font-weight: bold;
+  color: white;
+  margin-top: auto;
+  margin-bottom: 2vw;
+  font-size: 1rem;
 }
 
 body {
-  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-h2{
+h2 {
   width: 60%;
 }
 
+@media (max-width: 1700px) {
+  :root {
+    font-size: 11px;
+  }
+}
 @media (max-width: 1500px) {
-  
   .logo {
     position: relative;
     left: auto;
@@ -48,19 +64,17 @@ h2{
   .logoimage {
     width: 80vw;
   }
-  h2{
+  h2 {
     width: 100%;
   }
   .maindiv {
     padding-top: 10vh;
 
     width: 100%;
-    
   }
   .title-text {
     margin-left: 5px;
     margin-top: 5vh;
     width: 100%;
-
   }
 }
