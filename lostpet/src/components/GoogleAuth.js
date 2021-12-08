@@ -81,7 +81,7 @@ class GoogleAuth extends React.Component {
   render() {
     return (
       <div>
-        <button onClick={this.SignInFb} className="ui facebook button scalable">
+        <button onClick={this.SignInFb} className="ui facebook button ">
           Sign in Facebook
         </button>
       </div>
